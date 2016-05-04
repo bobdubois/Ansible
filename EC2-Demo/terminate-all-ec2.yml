@@ -10,7 +10,7 @@
   gather_facts: True
   connection: local
   vars: 
-    - region: 'us-west-2'
+    - region: 'eu-west-1'
   tasks:
     - name: Gather EC2 facts
       local_action: ec2_facts
